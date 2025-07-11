@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const ViewProduct = () => {
     return (
         <div>
-
+<Navbar/>
             <div class="container">
                 <div class="row">
                     <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -18,7 +19,7 @@ const ViewProduct = () => {
                                         class="card-img-top" alt="..." />
                                     <div class="card-body">
                                         <h5 class="card-title">BAG</h5>
-                                        <p class="card-text">Accelerator 2 Analog Watch - For Men MK9189.</p>
+                                        <p class="card-text">Accelerator 2  Bag</p>
                                         <a href="#" class="btn btn-primary">Buy Now</a>
                                     </div>
                                 </div>
@@ -61,7 +62,7 @@ const ViewProduct = () => {
                                         class="card-img-top" alt="..." />
                                     <div class="card-body">
                                         <h5 class="card-title">WD-40 </h5>
-                                        <p class="card-text">Eco Analog Watch - For Men NT1584SL03.</p>
+                                        <p class="card-text">Eco</p>
                                         <a href="#" class="btn btn-primary">Buy Now</a>
                                     </div>
                                 </div>
@@ -75,9 +76,7 @@ const ViewProduct = () => {
                                         class="card-img-top" alt="..." />
                                     <div class="card-body">
                                         <h5 class="card-title">Rolex</h5>
-                                        <p class="card-text">Cosmograph Daytona ,Oyster, 40 mm, yellow gold
-
-                                            Reference 126518LN</p>
+                                        <p class="card-text">Cosmograph Daytona ,Oyster, 40 mm, yellow gold</p>
                                         <a href="#" class="btn btn-primary">Buy Now</a>
                                     </div>
                                 </div>
@@ -106,8 +105,8 @@ const ViewProduct = () => {
                                         class="card-img-top" alt="..." />
                                     <div class="card-body">
                                         <h5 class="card-title">Nothing 3a</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the
-                                            bulk of the card’s content.</p>
+                                        <p class="card-text">Some quick example text to build 
+                                            </p>
                                         <a href="#" class="btn btn-primary">Buy Now</a>
                                     </div>
                                 </div>

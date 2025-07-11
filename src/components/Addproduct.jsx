@@ -1,14 +1,14 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const Addproduct = () => {
     return (
         <div>
-
-
+<Navbar/>
             <div className="container mb-5">
                 <div className="row g-3">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-<br />
+                        <br />
                         <div className="row g-3">
                             <div className="col col-12 col-sm-6 col-md-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">Product Name</label>
@@ -31,7 +31,7 @@ const Addproduct = () => {
                             <div className="col col-12 col-sm-6 col-md-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">Expiry Date</label>
-                            <input type="date" name="" id="" className="form-control" />
+                                <input type="date" name="" id="" className="form-control" />
 
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
@@ -48,9 +48,9 @@ const Addproduct = () => {
                             <div className="col col-12 col-sm-6 col-md-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">Product Photo</label>
                                 <div class="d-grid gap-2">
-  <button class="btn btn-primary" type="button">UPLOAD</button>
+                                    <button class="btn btn-primary" type="button">UPLOAD</button>
 
-</div>
+                                </div>
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">Customer Care No</label>
